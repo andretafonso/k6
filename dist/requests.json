@@ -1,0 +1,31 @@
+{
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/query_param1?x=y",
+      "body": {},
+      "threshold": 855,
+      "tag": "endpoint1"
+    },
+    {
+      "method": "POST",
+      "path": "/path1/path2/path3",
+      "body": {
+        "property1": [2],
+        "property2": 1905348015,
+        "property3": null
+      },
+      "threshold": 3592,
+      "tag": "endpoint2"
+    },
+    {
+      "method": "POST",
+      "path": "/path1/path2",
+      "body": {
+        "name_of_the_file": "path_with_the_file_name_that_contains_the_body.json"
+      },
+      "threshold": 1102,
+      "tag": "endpoint3"
+    }
+  ]
+}
